@@ -4,4 +4,4 @@ Two-stage physics-informed neural networks for non-invasive aortic pressure-drop
 
 ![Overview of the pipeline](docs/Graphical_Abstract.png)
 
-[View the figure as a PDF](docs/Graphical%20Abstract.pdf)
+[View the figure as a PDF](docs/Graphical_Abstract.pdf)
