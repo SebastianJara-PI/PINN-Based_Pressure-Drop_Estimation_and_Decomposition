@@ -1,2 +1,6 @@
 data/raw/cfd_9mm.npy filter=lfs diff=lfs merge=lfs -text
 data/cfd_9mm/raw/cfd_9mm.npy filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text

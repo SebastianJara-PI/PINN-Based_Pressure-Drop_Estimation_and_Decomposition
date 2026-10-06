@@ -1,0 +1,16 @@
+{
+  "experiment_name": "cfd_9mm",
+  "data_path": "/proj/multipress/users/x_sebja/code_repository/data/cfd_9mm/processed/tubular_region_0.002_cfd_9mm.npy",
+  "output_dir": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_9mm/velocity/seed_001",
+  "training_seed": 1,
+  "split_seed": 43,
+  "batch_seed": 10001,
+  "last_epoch": 100000,
+  "lambda_div": 1.0,
+  "divergence_multiplier": 1.2,
+  "max_divergence_threshold": 0.027145038996453937,
+  "best_epoch": 100000,
+  "best_validation_selection_score": 0.18934705878748181,
+  "best_checkpoint": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_9mm/velocity/seed_001/checkpoints/best_velocity.pth",
+  "last_checkpoint": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_9mm/velocity/seed_001/checkpoints/checkpoint_last.pth"
+}

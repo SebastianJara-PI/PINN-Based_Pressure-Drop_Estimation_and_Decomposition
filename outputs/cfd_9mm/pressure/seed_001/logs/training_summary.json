@@ -1,0 +1,36 @@
+{
+  "experiment_name": "cfd_9mm",
+  "training_seed": 1,
+  "split_seed": 43,
+  "batch_seed": 20001,
+  "velocity_run_name": "seed_001",
+  "idx_p1": 0,
+  "idx_p2": 202,
+  "pressure_endpoints": [
+    [
+      0.09211013169021301,
+      0.1450641336291989,
+      0.07999769887045975
+    ],
+    [
+      0.1345630320572277,
+      0.1425410185350506,
+      0.026728426879198654
+    ]
+  ],
+  "pressure_scale_mmhg": 8.393213423140967,
+  "warmup_epochs": 5000,
+  "patience": 15,
+  "min_delta_relative": 0.002,
+  "score_weights": {
+    "tangential": 0.75,
+    "total_vector": 0.25
+  },
+  "drop_stability_tolerance": 0.01,
+  "drop_stability_required": 3,
+  "last_epoch": 100000,
+  "best_epoch": 83500,
+  "best_pressure_validation_metric": 0.09867339581197573,
+  "best_checkpoint": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_9mm/pressure/seed_001/checkpoints/best_pressure.pth",
+  "last_checkpoint": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_9mm/pressure/seed_001/checkpoints/checkpoint_last.pth"
+}

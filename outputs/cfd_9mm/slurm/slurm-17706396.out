@@ -1,0 +1,602 @@
+==============================
+Job ID: 17706396
+Node: node065
+Start: Tue Oct  6 10:13:05 CEST 2026
+PWD: /proj/multipress/users/x_sebja/code_repository/scripts
+==============================
+==========================================================================================
+Device:                cuda
+Experiment:            cfd_9mm
+Training seed:         1
+Split seed:            43
+Data loaded from:      /proj/multipress/users/x_sebja/code_repository/data/cfd_9mm/processed/tubular_region_0.002_cfd_9mm.npy
+Results saved in:      /proj/multipress/users/x_sebja/code_repository/outputs/cfd_9mm/velocity/seed_001
+Data shape:            (28, 2710, 8)
+==========================================================================================
+Train samples:         68292
+Validation samples:    7588
+
+==========================================================================================
+Epoch:                         0
+Elapsed since last eval:       1.04 s
+Training total loss:           1.342809e-01
+Validation vector relative L2: 102.4347 %
+Validation RMS divergence:     1.782866e-03
+Max divergence threshold:      nan
+Divergence constraint met:     False
+Selection score:               nan
+Best epoch:                    -1
+Best selection score:          inf
+No-improvement evaluations:    0/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         2500
+Elapsed since last eval:       24.43 s
+Training total loss:           2.303909e-02
+Validation vector relative L2: 43.6770 %
+Validation RMS divergence:     3.159456e-02
+Max divergence threshold:      nan
+Divergence constraint met:     False
+Selection score:               nan
+Best epoch:                    -1
+Best selection score:          inf
+No-improvement evaluations:    0/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         5000
+Elapsed since last eval:       23.28 s
+Training total loss:           1.799267e-02
+Validation vector relative L2: 37.8970 %
+Validation RMS divergence:     2.341431e-02
+Max divergence threshold:      nan
+Divergence constraint met:     False
+Selection score:               nan
+Best epoch:                    -1
+Best selection score:          inf
+No-improvement evaluations:    0/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         7500
+Elapsed since last eval:       23.27 s
+Training total loss:           1.392225e-02
+Validation vector relative L2: 34.5722 %
+Validation RMS divergence:     2.422781e-02
+Max divergence threshold:      nan
+Divergence constraint met:     False
+Selection score:               nan
+Best epoch:                    -1
+Best selection score:          inf
+No-improvement evaluations:    0/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         10000
+Elapsed since last eval:       24.22 s
+Training total loss:           1.206225e-02
+Validation vector relative L2: 32.2284 %
+Validation RMS divergence:     2.262087e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               3.222835e-01
+Best epoch:                    10000
+Best selection score:          3.222835e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         12500
+Elapsed since last eval:       24.61 s
+Training total loss:           1.187648e-02
+Validation vector relative L2: 30.7404 %
+Validation RMS divergence:     2.388151e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               3.074037e-01
+Best epoch:                    12500
+Best selection score:          3.074037e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         15000
+Elapsed since last eval:       23.70 s
+Training total loss:           1.098697e-02
+Validation vector relative L2: 29.9529 %
+Validation RMS divergence:     2.330752e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.995288e-01
+Best epoch:                    15000
+Best selection score:          2.995288e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         17500
+Elapsed since last eval:       23.73 s
+Training total loss:           1.107977e-02
+Validation vector relative L2: 28.7252 %
+Validation RMS divergence:     2.851431e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     False
+Selection score:               inf
+Best epoch:                    15000
+Best selection score:          2.995288e-01
+No-improvement evaluations:    1/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         20000
+Elapsed since last eval:       23.71 s
+Training total loss:           1.051397e-02
+Validation vector relative L2: 27.4725 %
+Validation RMS divergence:     3.027819e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     False
+Selection score:               inf
+Best epoch:                    15000
+Best selection score:          2.995288e-01
+No-improvement evaluations:    2/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         22500
+Elapsed since last eval:       23.54 s
+Training total loss:           1.010890e-02
+Validation vector relative L2: 26.6613 %
+Validation RMS divergence:     2.787075e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     False
+Selection score:               inf
+Best epoch:                    15000
+Best selection score:          2.995288e-01
+No-improvement evaluations:    3/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         25000
+Elapsed since last eval:       23.46 s
+Training total loss:           9.220279e-03
+Validation vector relative L2: 26.2491 %
+Validation RMS divergence:     2.599205e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.624910e-01
+Best epoch:                    25000
+Best selection score:          2.624910e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         27500
+Elapsed since last eval:       23.59 s
+Training total loss:           8.583037e-03
+Validation vector relative L2: 25.3073 %
+Validation RMS divergence:     2.369034e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.530727e-01
+Best epoch:                    27500
+Best selection score:          2.530727e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         30000
+Elapsed since last eval:       23.67 s
+Training total loss:           7.302889e-03
+Validation vector relative L2: 24.7335 %
+Validation RMS divergence:     2.216896e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.473349e-01
+Best epoch:                    30000
+Best selection score:          2.473349e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         32500
+Elapsed since last eval:       24.29 s
+Training total loss:           7.756672e-03
+Validation vector relative L2: 24.3019 %
+Validation RMS divergence:     2.133575e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.430188e-01
+Best epoch:                    32500
+Best selection score:          2.430188e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         35000
+Elapsed since last eval:       24.17 s
+Training total loss:           7.840995e-03
+Validation vector relative L2: 23.9758 %
+Validation RMS divergence:     2.635813e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.397576e-01
+Best epoch:                    35000
+Best selection score:          2.397576e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         37500
+Elapsed since last eval:       24.29 s
+Training total loss:           6.897951e-03
+Validation vector relative L2: 23.5578 %
+Validation RMS divergence:     2.162422e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.355782e-01
+Best epoch:                    37500
+Best selection score:          2.355782e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         40000
+Elapsed since last eval:       23.49 s
+Training total loss:           6.894502e-03
+Validation vector relative L2: 23.2183 %
+Validation RMS divergence:     2.850652e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     False
+Selection score:               inf
+Best epoch:                    37500
+Best selection score:          2.355782e-01
+No-improvement evaluations:    1/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         42500
+Elapsed since last eval:       23.63 s
+Training total loss:           6.860034e-03
+Validation vector relative L2: 22.7587 %
+Validation RMS divergence:     2.128351e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.275875e-01
+Best epoch:                    42500
+Best selection score:          2.275875e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         45000
+Elapsed since last eval:       23.43 s
+Training total loss:           6.781484e-03
+Validation vector relative L2: 22.4906 %
+Validation RMS divergence:     2.099737e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.249064e-01
+Best epoch:                    45000
+Best selection score:          2.249064e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         47500
+Elapsed since last eval:       23.66 s
+Training total loss:           6.243684e-03
+Validation vector relative L2: 22.3662 %
+Validation RMS divergence:     2.016690e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.236625e-01
+Best epoch:                    47500
+Best selection score:          2.236625e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         50000
+Elapsed since last eval:       23.53 s
+Training total loss:           6.118340e-03
+Validation vector relative L2: 21.9213 %
+Validation RMS divergence:     2.502358e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.192128e-01
+Best epoch:                    50000
+Best selection score:          2.192128e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         52500
+Elapsed since last eval:       23.69 s
+Training total loss:           5.447877e-03
+Validation vector relative L2: 21.6950 %
+Validation RMS divergence:     2.136633e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.169498e-01
+Best epoch:                    52500
+Best selection score:          2.169498e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         55000
+Elapsed since last eval:       23.52 s
+Training total loss:           7.145712e-03
+Validation vector relative L2: 21.5473 %
+Validation RMS divergence:     2.626360e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.154725e-01
+Best epoch:                    55000
+Best selection score:          2.154725e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         57500
+Elapsed since last eval:       23.99 s
+Training total loss:           5.715317e-03
+Validation vector relative L2: 21.2352 %
+Validation RMS divergence:     2.240733e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.123522e-01
+Best epoch:                    57500
+Best selection score:          2.123522e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         60000
+Elapsed since last eval:       23.59 s
+Training total loss:           6.671740e-03
+Validation vector relative L2: 21.2336 %
+Validation RMS divergence:     2.344585e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.123365e-01
+Best epoch:                    57500
+Best selection score:          2.123522e-01
+No-improvement evaluations:    1/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         62500
+Elapsed since last eval:       24.00 s
+Training total loss:           6.253833e-03
+Validation vector relative L2: 20.8661 %
+Validation RMS divergence:     2.176497e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.086610e-01
+Best epoch:                    62500
+Best selection score:          2.086610e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         65000
+Elapsed since last eval:       23.56 s
+Training total loss:           5.858985e-03
+Validation vector relative L2: 20.7180 %
+Validation RMS divergence:     1.793915e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.071798e-01
+Best epoch:                    65000
+Best selection score:          2.071798e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         67500
+Elapsed since last eval:       23.82 s
+Training total loss:           5.999434e-03
+Validation vector relative L2: 20.5086 %
+Validation RMS divergence:     2.528797e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.050861e-01
+Best epoch:                    67500
+Best selection score:          2.050861e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         70000
+Elapsed since last eval:       23.74 s
+Training total loss:           5.247513e-03
+Validation vector relative L2: 20.5056 %
+Validation RMS divergence:     2.279921e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.050557e-01
+Best epoch:                    67500
+Best selection score:          2.050861e-01
+No-improvement evaluations:    1/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         72500
+Elapsed since last eval:       24.29 s
+Training total loss:           5.586346e-03
+Validation vector relative L2: 20.1877 %
+Validation RMS divergence:     2.177920e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.018769e-01
+Best epoch:                    72500
+Best selection score:          2.018769e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         75000
+Elapsed since last eval:       23.67 s
+Training total loss:           5.848014e-03
+Validation vector relative L2: 20.1589 %
+Validation RMS divergence:     3.914765e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     False
+Selection score:               inf
+Best epoch:                    72500
+Best selection score:          2.018769e-01
+No-improvement evaluations:    1/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         77500
+Elapsed since last eval:       24.43 s
+Training total loss:           5.964128e-03
+Validation vector relative L2: 20.0107 %
+Validation RMS divergence:     2.518368e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               2.001072e-01
+Best epoch:                    77500
+Best selection score:          2.001072e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         80000
+Elapsed since last eval:       24.15 s
+Training total loss:           5.490807e-03
+Validation vector relative L2: 19.8241 %
+Validation RMS divergence:     2.344406e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               1.982408e-01
+Best epoch:                    80000
+Best selection score:          1.982408e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         82500
+Elapsed since last eval:       23.97 s
+Training total loss:           5.092295e-03
+Validation vector relative L2: 19.7770 %
+Validation RMS divergence:     2.217003e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               1.977701e-01
+Best epoch:                    82500
+Best selection score:          1.977701e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         85000
+Elapsed since last eval:       23.64 s
+Training total loss:           4.758225e-03
+Validation vector relative L2: 19.5798 %
+Validation RMS divergence:     1.962135e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               1.957975e-01
+Best epoch:                    85000
+Best selection score:          1.957975e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         87500
+Elapsed since last eval:       24.25 s
+Training total loss:           5.045396e-03
+Validation vector relative L2: 19.3872 %
+Validation RMS divergence:     2.012497e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               1.938722e-01
+Best epoch:                    87500
+Best selection score:          1.938722e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         90000
+Elapsed since last eval:       23.86 s
+Training total loss:           5.442935e-03
+Validation vector relative L2: 19.2827 %
+Validation RMS divergence:     2.423637e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               1.928269e-01
+Best epoch:                    90000
+Best selection score:          1.928269e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
+
+==========================================================================================
+Epoch:                         92500
+Elapsed since last eval:       23.87 s
+Training total loss:           4.952160e-03
+Validation vector relative L2: 19.2138 %
+Validation RMS divergence:     2.855171e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     False
+Selection score:               inf
+Best epoch:                    90000
+Best selection score:          1.928269e-01
+No-improvement evaluations:    1/10
+Checkpoint improved:           False
+==========================================================================================
+
+==========================================================================================
+Epoch:                         95000
+Elapsed since last eval:       23.90 s
+Training total loss:           5.246003e-03
+Validation vector relative L2: 19.0957 %
+Validation RMS divergence:     2.101565e-02
+Max divergence threshold:      2.714504e-02
+Divergence constraint met:     True
+Selection score:               1.909574e-01
+Best epoch:                    95000
+Best selection score:          1.909574e-01
+No-improvement evaluations:    0/10
+Checkpoint improved:           True
+==========================================================================================
