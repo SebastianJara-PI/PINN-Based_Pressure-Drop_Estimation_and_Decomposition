@@ -4,3 +4,6 @@ data/cfd_9mm/raw/cfd_9mm.npy filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
 *.npz filter=lfs diff=lfs merge=lfs -text
+data/cfd_11mm/raw/cfd_11mm.npy filter=lfs diff=lfs merge=lfs -text
+data/cfd_13mm/raw/cfd_13mm.npy filter=lfs diff=lfs merge=lfs -text
+data/cfd_normal/raw/cfd_normal.npy filter=lfs diff=lfs merge=lfs -text
