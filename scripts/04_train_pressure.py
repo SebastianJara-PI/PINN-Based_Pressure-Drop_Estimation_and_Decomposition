@@ -36,7 +36,11 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Case and experiment configuration
 
 # Case configuration
-CASE_NAME = "cfd_9mm"
+# CASE_NAME = "cfd_9mm"
+# CASE_NAME = "cfd_11mm"
+# CASE_NAME = "cfd_13mm"
+CASE_NAME = "cfd_normal"
+
 VELOCITY_RUN_NAME = "seed_001"
 experiment_name = CASE_NAME
 

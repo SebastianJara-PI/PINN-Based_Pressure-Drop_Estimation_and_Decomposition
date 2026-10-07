@@ -535,17 +535,17 @@ def plot_pressure_drop_panels(
     time_values = np.asarray(time_values)
 
     if segmentation_xyz.ndim != 2 or segmentation_xyz.shape[1] < 3:
-        raise ValueError("segmentation_xyz debe tener forma (N, >=3).")
+        raise ValueError("segmentation_xyz must have shape (N, >=3).")
     if spatial_points.ndim != 2 or spatial_points.shape[1] < 3:
-        raise ValueError("spatial_points debe tener forma (N, >=3).")
+        raise ValueError("spatial_points must have shape (N, >=3).")
     if predicted_total_pressure.shape[0] != spatial_points.shape[0]:
-        raise ValueError("Debe haber una presión predicha por cada punto espacial.")
+        raise ValueError("There must be a predicted pressure for each spatial point.")
     if centerline_xyz.ndim != 2 or centerline_xyz.shape[1] < 3:
-        raise ValueError("centerline_xyz debe tener forma (N, >=3).")
+        raise ValueError("centerline_xyz must have shape (N, >=3).")
     if p1_xyz.shape[0] < 3 or p2_xyz.shape[0] < 3:
-        raise ValueError("p1_xyz y p2_xyz deben contener tres coordenadas.")
+        raise ValueError("p1_xyz and p2_xyz must contain three coordinates.")
     if len(panel_widths) != 2 or any(width <= 0 for width in panel_widths):
-        raise ValueError("panel_widths debe contener dos valores positivos.")
+        raise ValueError("panel_widths must contain two positive values.")
 
     if len(segmentation_xyz) > max_segmentation_points:
         rng = np.random.default_rng(42)
@@ -617,7 +617,7 @@ def plot_pressure_drop_panels(
         *p2_xyz[:3], " $\pi_2$", color="black", fontsize=15, fontweight="bold"
     )
     ax_spatial.set_title(
-        f"Presión total predicha, t = {time_value:.4f} s", fontsize=20
+        f"Predicted total pressure, t = {time_value:.4f} s", fontsize=20
     )
     ax_spatial.view_init(elev=view_angle[0], azim=view_angle[1])
     ax_spatial.set_axis_off()
@@ -660,7 +660,7 @@ def plot_pressure_drop_panels(
     )
     ax_drop.set_xlabel("Time [s]", fontsize=18)
     ax_drop.set_ylabel(r"$\Delta p$ [mmHg]", fontsize=18)
-    ax_drop.set_title("Pressure-Drop estimation P1-P2", fontsize=20)
+    ax_drop.set_title(r"Predicted pressure drop $p(\pi_1,t)-p(\pi_2,t)$", fontsize=20)
     ax_drop.tick_params(labelsize=17)
     ax_drop.grid(True)
     ax_drop.legend(fontsize=15)
@@ -686,7 +686,7 @@ def plot_pressure_drop_panels(
         fontsize=12,
     )
 
-    if output_path is not None:
+    if output_path is not None:     
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         fig.savefig(output_path, dpi=300, bbox_inches="tight", facecolor="white")

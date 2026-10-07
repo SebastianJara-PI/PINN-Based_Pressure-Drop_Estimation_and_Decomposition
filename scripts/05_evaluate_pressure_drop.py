@@ -26,6 +26,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Case 
 
 CASE_NAME = "cfd_9mm"
+# CASE_NAME = "cfd_11mm"
+# CASE_NAME = "cfd_13mm"
+# CASE_NAME = "cfd_normal"
 PRESSURE_RUN_NAME = "seed_001"
 PLOT_TIME = 0.15
 SPATIAL_PANEL_WIDTH = 2.0
@@ -38,11 +41,9 @@ PRESSURE_RUN_DIR = (
 data_dir = PROJECT_ROOT / "data" / CASE_NAME / "processed"
 segmentation_path = PROJECT_ROOT / "data" / CASE_NAME / "raw" / f"{CASE_NAME}.npy"
 centerline_path = data_dir / "centerline_xyz.npy"
-data_path = data_dir / "tubular_region_0.002_cfd_9mm.npy" 
+data_path = data_dir / f"tubular_region_0.002_{CASE_NAME}.npy" 
 pressure_ckpt_path = PRESSURE_RUN_DIR / "checkpoints" / "best_pressure.pth"
 path_dic = PRESSURE_RUN_DIR / "sampling" / "dic_adim_norm.npz"
-
-
 
 print(f"Centerline path: {centerline_path}")
 print(f"Data path: {data_path}")
@@ -129,14 +130,11 @@ Data_pred_pres = predict_pressure_on_tubular_region(
 #print(X_norm)
 print(Data_pred_pres_center.shape)
 
-
 ##########################################################
-# Plots
-
 # Select points on centerline
+##########################################################
 idx_p1 = 35
-# idx_p2 = 170
-idx_p2 = 70
+idx_p2 = 170
 
 # P1 point
 P1_manual = centerline_xyz[idx_p1,:3]
@@ -191,6 +189,9 @@ figure_path = figures_dir / (
     f"F_pressure_drop_{PRESSURE_RUN_NAME}_p1_{idx_p1}_p2_{idx_p2}_"
     f"t_{plot_time:.4f}.png"
 )
+
+##########################################################
+# Plots
 
 fig, axes = plot_pressure_drop_panels(
     segmentation_xyz=segmentation_xyz,

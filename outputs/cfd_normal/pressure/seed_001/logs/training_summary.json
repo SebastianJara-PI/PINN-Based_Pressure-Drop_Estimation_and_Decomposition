@@ -1,0 +1,36 @@
+{
+  "experiment_name": "cfd_normal",
+  "training_seed": 1,
+  "split_seed": 43,
+  "batch_seed": 20001,
+  "velocity_run_name": "seed_001",
+  "idx_p1": 0,
+  "idx_p2": 199,
+  "pressure_endpoints": [
+    [
+      0.09030338173601243,
+      0.12866329634799759,
+      0.08736924934380784
+    ],
+    [
+      0.1281833543670367,
+      0.130677969845954,
+      0.027898897039642143
+    ]
+  ],
+  "pressure_scale_mmhg": 8.393213423140967,
+  "warmup_epochs": 5000,
+  "patience": 15,
+  "min_delta_relative": 0.002,
+  "score_weights": {
+    "tangential": 0.75,
+    "total_vector": 0.25
+  },
+  "drop_stability_tolerance": 0.01,
+  "drop_stability_required": 3,
+  "last_epoch": 100000,
+  "best_epoch": 95000,
+  "best_pressure_validation_metric": 0.07785196908456928,
+  "best_checkpoint": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_normal/pressure/seed_001/checkpoints/best_pressure.pth",
+  "last_checkpoint": "/proj/multipress/users/x_sebja/code_repository/outputs/cfd_normal/pressure/seed_001/checkpoints/checkpoint_last.pth"
+}

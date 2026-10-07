@@ -35,8 +35,14 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Case and experiment configuration
 
 # Case configuration
-CASE_NAME = "cfd_9mm"
-DATA_FILENAME = "tubular_region_0.002_cfd_9mm.npy"
+
+# CASE_NAME = "cfd_9mm"
+# CASE_NAME = "cfd_11mm"
+# CASE_NAME = "cfd_13mm"
+CASE_NAME = "cfd_normal"
+
+DATA_FILENAME = f"tubular_region_0.002_{CASE_NAME}.npy"
+
 experiment_name = CASE_NAME
 # seed that changes between runs
 training_seed = 1

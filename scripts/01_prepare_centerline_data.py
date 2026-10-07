@@ -15,7 +15,10 @@ from visualization_plots import plot_velocity_panels, plot_pressure_panels, plot
 from utils import build_centerline_from_pointcloud
 
 # Chosen Case
-CASE_NAME = "cfd_9mm"
+# CASE_NAME = "cfd_9mm"
+# CASE_NAME = "cfd_11mm"
+# CASE_NAME = "cfd_13mm"
+CASE_NAME = "cfd_normal"
 
 # Paths
 CASE_DIR = PROJECT_DIR / "data" / CASE_NAME
