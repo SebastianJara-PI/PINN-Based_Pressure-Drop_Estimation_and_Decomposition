@@ -103,7 +103,7 @@ The training scripts can take a long time and benefit from a GPU. On a computing
    - **Inputs:** the raw CFD array, processed tubular-region data and centerline, the best pressure checkpoint from step 4, and the saved normalization parameters.
    - **Work:** predicts pressure components on the centerline and tubular region, then compares the PINN and CFD pressure drops between P1 and P2.
    - **Point selection:** set `idx_p1` and `idx_p2` in the script; these are indices into `centerline_xyz.npy`. The script finds the nearest CFD spatial points for the comparison. `PLOT_TIME` selects the nearest available time step for the spatial pressure plot.
-   - **Figure output:** `F_pressure_drop_<run>_p1_<index>_p2_<index>_t_<time>.png` under `outputs/<case>/figures/`. This is the pressure-drop figure. In the current script 01, figure E is the two-view tubular-region velocity plot, not the pressure-drop plot.
+   - **Figure output:** `F_pressure_drop_<run>_p1_<index>_p2_<index>_t_<time>.png` under `outputs/<case>/figures/`.The left panel shows the PINN-predicted total pressure field in the tubular region at the selected time, with the segmentation, centerline, P1, and P2 for context. The right panel plots the pressure drops between P1 and P2 over time: PINN component drops and total drop, compared with the total CFD drop. 
 
 ## Reproducibility and publication
 
