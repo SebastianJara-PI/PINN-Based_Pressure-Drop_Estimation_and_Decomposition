@@ -62,8 +62,6 @@ python -c "import torch; print('CUDA available:', torch.cuda.is_available()); pr
 
 If CUDA is unavailable, check that the machine has an NVIDIA GPU, that a GPU has been allocated to your job, and that its driver is installed and compatible with the PyTorch build. The scripts otherwise select CPU automatically, which can make training much slower.
 
-Before running the workflow, check the case and run-name settings near the top of the scripts. In the current source, scripts select `cfd_9mm` and also uses a filename specific to that case. Set these consistently for the case you intend to process. Training seeds and checkpoint paths must also agree between dependent scripts.
-
 Run the scripts from the repository root, in this order:
 
 ```bash
@@ -75,6 +73,8 @@ python scripts/05_evaluate_pressure_drop.py
 ```
 
 Scripts 02, 03, and 04 are computationally intensive and may take a long time to run on a CPU. GPU execution is therefore strongly recommended for these steps.
+
+**Before running the workflow**, verify the case configuration near the beginning of each script. By default, the current version is configured for cfd_9mm. If you want to process a different case (cfd_11mm, cfd_13mm, or cfd_normal), update the case name consistently in all five scripts before executing the workflow. Training seeds, run names, and checkpoint paths must also remain consistent across dependent scripts.
 
 ## Workflow
 
