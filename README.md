@@ -74,7 +74,7 @@ python scripts/04_train_pressure.py
 python scripts/05_evaluate_pressure_drop.py
 ```
 
-The training scripts can take a long time and benefit from a GPU. On a computing cluster, request a GPU through that cluster's own scheduler and run the commands from the allocated GPU node; do not launch GPU workloads on a login node. Cluster-specific job files and account information are intentionally not part of this repository.
+Scripts 02, 03, and 04 are computationally intensive and benefit significantly from GPU acceleration. GPU execution is strongly recommended for these steps.
 
 ## Workflow
 
