@@ -95,7 +95,7 @@ The training scripts can take a long time and benefit from a GPU. On a computing
    - **Outputs:** six arrays (`Data_acc.npy`, `Data_adv.npy`, `Data_visc.npy` and their `_mks` versions) plus `reconstruction_metadata.json` under `outputs/<case>/momentum_terms/<velocity-run>/`.
 
 4. **`04_train_pressure.py`**
-   - **Inputs:** the MKS momentum-term arrays from step 3, the centerline from step 1, and the best velocity checkpoint from step 2.
+   - **Inputs:** the MKS momentum-term arrays from step 3, the centerline from step 1, and saved normalization parameters.
    - **Work:** trains the pressure PINN for the acceleration, advection, and viscous pressure components, with validation that includes pressure-drop stability.
    - **Outputs:** the best, periodic, and final pressure checkpoints, normalization and validation-geometry files, validation history, and training summary under `outputs/<case>/pressure/<run>/`.
 
