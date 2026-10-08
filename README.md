@@ -96,7 +96,7 @@ The training scripts can take a long time and benefit from a GPU. On a computing
 
 4. **`04_train_pressure.py`**
    - **Inputs:** the MKS momentum-term arrays from step 3, the centerline from step 1, and saved normalization parameters.
-   - **Work:** trains the pressure PINN for the acceleration, advection, and viscous pressure components, with validation that includes pressure-drop stability.
+   - **Work:** trains the pressure PINN for the acceleration, advection, and viscous pressure components, with validation that includes pressure-drop stability without relying on ground-truth pressure values.
    - **Outputs:** the best, periodic, and final pressure checkpoints, normalization and validation-geometry files, validation history, and training summary under `outputs/<case>/pressure/<run>/`.
 
 5. **`05_evaluate_pressure_drop.py`**
